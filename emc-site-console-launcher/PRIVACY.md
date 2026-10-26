@@ -1,12 +1,12 @@
 # EMC Site Console Launcher: Privacy Policy
 
-Last updated: October 23, 2026
+Last updated: October 26, 2026
 
 This policy applies only to the EMC Site Console Launcher browser extension, an internal tool published by Edgeworth Security ("Edgeworth") for Edgeworth personnel.
 
 ## What the extension reads
 
-When an operator opens an alarm page in Edgeworth's alarm monitoring web application, the extension reads the site name shown in that browser tab's title. It also checks that tab's address so it can close the related console window when the alarm is closed. The extension is notified when any browser tab's address changes, but it only checks whether a tab it is tracking has left the alarm page. It does not record, store, or send the addresses or contents of other tabs.
+When an operator opens an alarm page in Edgeworth's alarm monitoring web application, the extension reads the site name shown in that browser tab's title. It also checks that tab's address so it can close the related console window when the alarm is closed. The extension is notified when any browser tab's address changes, but it only checks whether a tab it is tracking has left the alarm page. It does not record, store, or send the addresses or contents of other tabs. The extension also notices when a browser window is moved or resized, but it only acts on, and records the position of, its own console windows.
 
 ## How the information is used
 
@@ -14,7 +14,7 @@ The site name is added to the address of Edgeworth's internal site console app, 
 
 ## What is stored
 
-The extension does not keep a history of alarms, sites, or browsing. While an alarm is open, it holds the site name and the related console window in browser memory so it can place and close that window. This is discarded when the alarm or browser is closed. The extension also saves each workstation's display and layout preferences on that computer.
+The extension does not keep a history of alarms, sites, or browsing. While an alarm is open, it holds the site name and the related console window in browser memory so it can place and close that window. This is discarded when the alarm or browser is closed. The extension also saves each workstation's display and layout preferences on that computer, including the screen, position, and size of a console window when an operator moves or resizes it, so the next console opens in the same place.
 
 ## Sharing
 
